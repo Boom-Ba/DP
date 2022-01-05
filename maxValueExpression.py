@@ -19,6 +19,4 @@ def maxValueExpression(arr,n):
   for i in range(n-4,-1,-1):
     last[i] =max(last[i+1],third[i]-arr[i])
   return last[0]
-arr=[3,9,10,1,30,40]
-res=maxValueExpression(arr,len(arr))
-print(res)
+
